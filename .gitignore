@@ -2,13 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea/workspace.xml
 .idea/
 Java Workspace.iml
-.idea/tasks.xml
-.idea/dictionaries
-.idea/vcs.xml
-.idea/jsLibraryMappings.xml
 
 ### Eclipse ###
 .apt_generated
