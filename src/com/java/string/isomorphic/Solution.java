@@ -1,5 +1,4 @@
 package com.java.string.isomorphic;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -69,4 +68,9 @@ public class Solution {
 
         return true;
     }
+
+    public boolean isIsomorphic(String s, String t) {
+        return transformString(s).equals(transformString(t));
+    }
+
 }
