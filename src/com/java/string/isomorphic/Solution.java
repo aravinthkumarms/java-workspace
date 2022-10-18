@@ -69,8 +69,5 @@ public class Solution {
         return true;
     }
 
-    public boolean isIsomorphic(String s, String t) {
-        return transformString(s).equals(transformString(t));
-    }
 
 }
