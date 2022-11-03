@@ -7,7 +7,7 @@ public class Connector {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/sample",
-                    "root", "redmi100");
+                    "root", "1234");
             Statement statement;
             statement = connection.createStatement();
             ResultSet resultSet;
