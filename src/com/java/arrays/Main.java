@@ -1,10 +1,17 @@
 package com.java.arrays;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     static Scanner  scanner = new Scanner(System.in);
     public static void main(String[] args){
+        ArrayList<Integer> newArr = new ArrayList<Integer>();
+        newArr.add(Integer.valueOf(1));
+        System.out.println(newArr.get(0).getClass());
+        ArrayList<Double> doubleArr = new ArrayList<Double>();
+        doubleArr.add(1.5);
+        System.out.println(doubleArr.get(0).getClass());
         int []  myArray = new int[10];
       //datatype                      array length
         System.out.print("Enter the array length:");
@@ -53,4 +60,6 @@ public class Main {
         }
         return array;
     }
+
+
 }
