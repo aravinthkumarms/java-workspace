@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class LinkedListDemo {
     public static void main(String[] args){
-        LinkedList<String> placesToVisit = new LinkedList<String>();
+        LinkedList<String> placesToVisit = new LinkedList<>();
         addInOrder(placesToVisit,"Sydney");
         addInOrder(placesToVisit,"Melbourne");
         addInOrder(placesToVisit,"Brisbane");

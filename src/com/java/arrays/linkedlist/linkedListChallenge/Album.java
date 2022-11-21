@@ -1,4 +1,4 @@
-package com.java.arrays.linkedlist.playlist;
+package com.java.arrays.linkedlist.linkedListChallenge;
 //import java.util.ArrayList;
 //import java.util.LinkedList;
 //

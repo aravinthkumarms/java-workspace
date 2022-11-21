@@ -1,4 +1,4 @@
-package com.java.arrays.linkedlist.playlist;
+package com.java.arrays.linkedlist.linkedListChallenge;
 
 public class Song {
     private String title;

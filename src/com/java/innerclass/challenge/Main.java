@@ -1,4 +1,4 @@
-package com.java.arrays.linkedlist.playlist;
+package com.java.innerclass.challenge;
 
 //Create a program that implements a playlist of songs.
 //
